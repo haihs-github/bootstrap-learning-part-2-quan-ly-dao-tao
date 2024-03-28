@@ -21,8 +21,23 @@
 }
 
 .noti__content{
+	.noti__time{
+		font-size: 14px;
+	}
 	.noti__img a{
 		text-decoration: none!important;
 	}
+	.noti__head{
+		font-size: 14px;
+	}
+	.noti__list{
+		.noti__time{
+			opacity: 0.8;
+		}
+	}
+	.noti__para{
+		font-size: 17px;
+	}
+	
 }
 
