@@ -1,0 +1,28 @@
+.header{
+	.header__img{
+		height: 60px;
+	}
+	.div-1{
+		flex: 2;
+		background-color: #e3babb;
+	}
+	.div-2{
+		flex: 1;
+	}
+	.triangle {
+		width: 0;
+		height: 0;
+		border-left: 40px solid #fff; /* Điều chỉnh kích thước và hình dạng tam giác */
+		border-right: 0 solid transparent; /* Điều chỉnh kích thước và hình dạng tam giác */
+		border-bottom: 60px solid transparent; /* Điều chỉnh kích thước và hình dạng tam giác */
+		right: -39px;
+		top: 0;
+	}
+}
+
+.noti__content{
+	.noti__img a{
+		text-decoration: none!important;
+	}
+}
+

@@ -11,10 +11,17 @@
 }
 
 .text-cl-white{
-	color: white;
+	color: white!important;
 }
 
 .text-cl-black{
-	color: #333;
+	color: #333!important;
+}
+
+.bg-red-theme{
+	background-color: #ad171c;
+}
+.bg-gray-theme{
+	background-color: #fcfcfc;
 }
 
