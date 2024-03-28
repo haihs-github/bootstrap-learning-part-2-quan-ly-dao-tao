@@ -35,7 +35,7 @@
       </header>
       <div class="content container-fluid">
         <div class="row gap-3" >
-          <div class="noti col-10 px-0  text-cl-black border shadow bg-body rounded" style="max-width: 80%">
+          <div class="noti col-10 px-0  text-cl-black border shadow-lg bg-body rounded" style="max-width: 80%">
             <nav class="navbar navbar-light bg-red-theme">
               <div class="container fixed">
                 <a href="index.html" class="navbar-brand mb-0 ms-3 h1 text-cl-white fs-6 fw-normal">
@@ -150,9 +150,38 @@
               </div>
             </div>
           </div>
-          <div class="col-2 px-0 green text-cl-black" style="width:18%">
-            <div class="login__form container-fluid red">
-
+          <div class="col-2 px-0 text-cl-black" style="width:18%">
+            <div class="login__form container-fluid px-0 border shadow-lg bg-body rounded d-flex flex-column">
+              <div class="bg-red-theme container">
+                <p class="mb-0 d-inline-block fs-5 p-1 fw-bold text-cl-white">
+                <i class="fa-solid fa-user"></i>
+                  ĐĂNG NHẬP
+                </p>
+              </div>
+              <div class="input-group px-2 pt-1 pb-1">
+                <span class="input-group-text login-input-text fs-6" id="inputGroup-sizing-default">
+                 <i class="fa-solid fa-user"></i>
+                </span>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+              </div>
+              <div class="input-group px-2 pb-1">
+                <span class="input-group-text login-input-text fs-6" id="inputGroup-sizing-default">
+                 <i class="fa-solid fa-lock"></i>
+                </span>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                <span class="input-group-text login-input-text">
+                  <i class="fa-solid fa-eye-slash "></i>
+                </span>
+              </div>     
+              <div class="login__forgot text-end">
+                <a href="index.html" class="d-inline-block text-algin text-decoration-none"><i>Quên mật khẩu</i></a>
+              </div>  
+              <div class="container pt-1 pb-2">
+                <button type="button" class="btn w-100 bg-red-theme text-cl-white">
+                  <i class="fa-solid fa-right-to-bracket"></i>
+                  ĐĂNG NHẬP
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -164,4 +193,4 @@
   </body>
 </html>
 
-<!-- xong phần header -->
+<!-- xong phần thông báo -->

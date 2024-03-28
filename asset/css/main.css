@@ -41,3 +41,13 @@
 	
 }
 
+.login__form{
+	.login-input-text{
+		background-color: #ddd;
+	}
+	.login__forgot{
+		a{
+			color: red;
+		}
+	}
+}

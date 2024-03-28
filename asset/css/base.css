@@ -19,7 +19,7 @@
 }
 
 .bg-red-theme{
-	background-color: #ad171c;
+	background-color: #ad171c!important;
 }
 .bg-gray-theme{
 	background-color: #fcfcfc;
@@ -29,6 +29,6 @@
 	opacity: 0.8;
 }
 
-.max-width-80{
-	max-width:80%;
+.hover-cursor-pointer:hover{
+	cursor: pointer;
 }
