@@ -51,3 +51,11 @@
 		}
 	}
 }
+
+.guide{
+	max-width: 997px;
+	.noti__time{
+		font-size: 14px;
+		opacity: 0.8;
+	}
+}
